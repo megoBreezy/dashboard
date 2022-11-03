@@ -1,0 +1,103 @@
+.app-inner 
+    h1.greeting-title Hello Evano &#128075;,
+    .card 
+        .card-header 
+            .card-header__left 
+                .card-header__name All Customers
+                .card-header__status Active Members
+            form.search.card__search
+                input(type="search" name="search" placeholder="Search").search__input
+                button.search__btn 
+                    svg.icon.icon--search
+                        use(href='img/sprite.svg#search') 
+        .card-body
+            .customers-table
+                .customers-table__head
+                    div Customer Name
+                    div Company
+                    div Phone Number
+                    div Email
+                    div Country
+                    div Status
+                .customers-table__row 
+                    div Jane Cooper
+                    div Microsoft
+                    div (225) 555-0118
+                    div jane@microsoft.com
+                    div United States
+                    div
+                        .status.status--green Active
+                .customers-table__row 
+                    div Floyd Miles
+                    div Yahoo
+                    div (205) 555-0100
+                    div floyd@yahoo.com
+                    div Kiribati
+                    div
+                        .status.status--red Inactive
+                .customers-table__row 
+                    div Ronald Richards
+                    div Adobe
+                    div (302) 555-0107
+                    div ronald@adobe.com
+                    div Israel
+                    div
+                        .status.status--red Inactive
+                .customers-table__row 
+                    div Marvin McKinney
+                    div Tesla
+                    div (252) 555-0126
+                    div marvin@tesla.com
+                    div Iran
+                    div
+                        .status.status--green Active
+                .customers-table__row 
+                    div Jerome Bell
+                    div Google
+                    div (629) 555-0129
+                    div jerome@google.com
+                    div Réunion
+                    div
+                        .status.status--green Active
+                .customers-table__row 
+                    div Kathryn Murphy
+                    div Microsoft
+                    div (406) 555-0120
+                    div kathryn@microsoft.com
+                    div Curaçao
+                    div
+                        .status.status--green Active
+                .customers-table__row 
+                    div Jacob Jones
+                    div Yahoo
+                    div (208) 555-0112
+                    div jacob@yahoo.com
+                    div Brazil
+                    div
+                        .status.status--green Active
+                .customers-table__row 
+                    div Kristin Watson
+                    div Facebook
+                    div (704) 555-0127
+                    div kristin@facebook.com
+                    div Åland Islands
+                    div
+                        .status.status--red Inactive
+        .card-footer 
+            .page-count Showing data 1 to 8 of  256K entries
+            ul.navigation 
+                li.navigation__item 
+                    a(href="#").navigation__link &lsaquo; 
+                li.navigation__item 
+                    a(href="#").navigation__link.is-active 1 
+                li.navigation__item 
+                    a(href="#").navigation__link 2 
+                li.navigation__item 
+                    a(href="#").navigation__link 3 
+                li.navigation__item 
+                    a(href="#").navigation__link 4 
+                li.navigation__item ... 
+                li.navigation__item
+                    a(href="#").navigation__link 40 
+                li.navigation__item 
+                    a(href="#").navigation__link &rsaquo;

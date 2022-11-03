@@ -1,0 +1,15 @@
+.icon {
+  fill: currentColor; 
+  display: inline-block;
+  vertical-align: top;
+
+  &--arrow-right {
+    width: 6px;
+    height: 10px;
+  }
+
+  &--search {
+    width: 24px;
+    height: 24px;
+  }
+}
